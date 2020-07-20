@@ -1,0 +1,25 @@
+{
+  "name": "@dev-demands/server",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm .",
+    "dev": "nodemon -r esm ."
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.15.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuid": "^8.2.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "src/data/"
+    ]
+  }
+}
