@@ -1,0 +1,3 @@
+# Dependency directories
+packages/server/node_modules/
+packages/web/node_modules/
