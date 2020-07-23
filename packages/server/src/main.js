@@ -19,20 +19,6 @@ server.applyMiddleware({
   bodyParserConfig: true,
 })
 
-// app.use(cors());
-
-// app.get('/status', (_, response) => {
-//   response.send({
-//     status: 'Vini'
-//   });
-// });
-
-// app.post('/authenticate', express.json(), (request, response) => {
-//   console.log('Email', request.body.email);
-//   response.send({ Okay: true });
-// });
-
-
 const PORT = process.env.PORT ? parseInt(process.env.PORT) : 8000;
 const HOSTNAME = process.env.HOSTNAME || '127.0.0.1';
 
